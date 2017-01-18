@@ -1,0 +1,193 @@
+
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: rgb(191, 191, 191);
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: rgb(191, 191, 191);
+  border-color: rgb(191, 191, 191);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: rgb(191, 191, 191);
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: rgb(191, 191, 191);
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: rgb(191, 191, 191);
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: rgb(191, 191, 191);
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: #222;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+header {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px !important;
+    width: 100%;
+}
+
+
+.articles.area li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.articles.area {
+    display: block;
+    width: 90%;
+    margin: 4%;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+}
+footer.btn.btn-large.btn-black {
+    margin: 0;
+    padding: 20px 0 0;
+    background: #222;
+    color: #c3c3c3;
+    line-height: -1em;
+}
+
+
+footer.btn.btn-large.btn-black {
+    margin: 0;
+    padding: 20px 0 0;
+    background: #222;
+    color: #c3c3c3;
+    line-height: -1em;
+    height: 100px;
+    position: relative;
+}
+
+.container.content-area.login {
+    max-width: 500px;
+}
+
+h1.login {
+    font-size: 50px;
+    text-align: center;
+    color: #4b7598;
+    line-height: 3em;
+}
+
+h2.login {
+    display: none;
+}
+
+.container.content-area.login input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+    border-top: none !important;
+    border-left: none !important;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+form button.btn {
+    margin: 25px auto 10px;
+    position: relative;
+    display: block;
+    width: 150px;
+    color: #fff;
+    background: #4b7598;
+    border: 1px solid rgba(68, 68, 68, 0.47);
+}
+
+span.login {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+/*
+*****************************   Responsive
+*/
+
+/*Logo*/
+
+@media (min-width: 769px) {
+    img.logo.responsive {
+        margin-top: -42px;
+        height: 103px;
+    }
+}
+@media (max-width: 768px) {
+    img.logo.responsive {
+        position: relative;
+        height: 60px;
+        margin-top: -20px;
+    }
+    
+  footer.btn.btn-large.btn-black {
+      height: 100px;
+      position: relative;
+  }
+}
